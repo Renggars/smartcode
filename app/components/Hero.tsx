@@ -1,8 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import Lottie from "lottie-react";
+import dynamic from "next/dynamic";
 import HeroAnimation from "../../public/lotties/hero-animation.json";
+
+// ⛔ Ganti import langsung dengan dynamic import
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 const Hero = () => {
   return (
