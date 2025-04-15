@@ -13,12 +13,12 @@ const Hero = () => {
       <div className="container mx-auto px-4 flex flex-col-reverse lg:flex-row items-center gap-10">
         {/* Left Section */}
         <div className="flex-1">
-          <h1 className="text-6xl md:text-6xl font-bold leading-tight mb-4">
-            Find Your Perfect <br />
+          <h1 className="text-6xl font-bold mb-4">
+            <span> Find Your Perfect</span> <br />
             <span className="text-blue-500"> Digital Solution</span> with
             Smartcode
           </h1>
-          <p className="mt-10 text-gray-600 mb-6 text-lg max-w-xl">
+          <p className="mt-10 text-gray-600 mb-6 text-lg max-w-xl leading-relaxed">
             Build your business’ digital presence with the best technology
             solutions. Smartcode is here to help you create websites,
             applications, and IT systems designed to suit your needs — fast,
